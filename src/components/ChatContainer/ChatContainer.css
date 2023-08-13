@@ -1,0 +1,9 @@
+.ChatContainer {
+    width: 95vw;
+    display: flex;
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: rgb(0 0 0 / 53%) 1px 3px 9px;
+    height: -webkit-fill-available;
+}

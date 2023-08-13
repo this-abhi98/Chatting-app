@@ -1,0 +1,64 @@
+.profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.profile-img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.profile-info>.profile-name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.profile-info-setting-icon {
+    font-size: 1.2rem !important;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 10px;
+    margin-top: -8px;
+    font-weight: 300;
+}
+
+.toggle-button {
+    width: 30px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.toggle-button.active {
+    justify-content: flex-end;
+    background-color: #134cfb;
+}
+
+.toggler {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: azure;
+    margin-left: 1px;
+    margin-right: 1px;
+    cursor: pointer;
+}

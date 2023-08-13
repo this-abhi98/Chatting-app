@@ -1,0 +1,60 @@
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.userInfo>.userInfoMail,.userInfoAccount{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px;
+    width: 50%;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.userInfoMail>p,.userInfoAccount>p{
+    margin-left: 10px;
+}
+
+.icon{
+    font-size: 1.2rem !important;
+}
+
+
+.userInfoImg{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userInfoButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.archive{
+    display: flex;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid rgb(106, 106, 237);
+    border-radius: 5px;
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgb(106, 106, 237);
+    cursor: pointer;
+    font-size: 10px;
+    width: 90px;
+}
+
+.archive-icon{
+    margin-left: 5px;
+    font-size: 1.1rem !important;
+}

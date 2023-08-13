@@ -1,0 +1,43 @@
+.onboard-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+}
+
+.onboard-wrapper>div{
+    margin-top: 14px;
+}
+
+.onboard-wrapper>button{
+    margin-top: 14px;
+}
+
+.onboard-heading{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.onboard-text{
+    font-size: 14px;
+}
+
+.copy-link-button{
+    display: flex;
+    background-color: #134cfb;
+    color: white;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 130px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+.copy-link-button-icon{
+    font-size: 1.1rem !important;
+    margin-left: 5px;
+}

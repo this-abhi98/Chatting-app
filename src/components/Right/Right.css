@@ -1,0 +1,41 @@
+.Right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    height: inherit;
+    flex-direction: column;
+}
+
+.Right>div {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.user-info {
+    background-color: #f3f6fb;
+    flex: 1;
+    width: 90%;
+    border: 1px solid #ebf0f7;
+}
+
+.info {
+    background-color: #f3f6fb;
+    display: flex;
+    flex: 1;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ebf0f7;
+    margin: 53px 0;
+}
+
+.onboard {
+    display: flex;
+    background-color: #f3f6fb;
+    flex: 1;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ebf0f7;
+}

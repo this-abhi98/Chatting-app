@@ -1,0 +1,68 @@
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-upper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+}
+
+.information-upper-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: 7px;
+    border-radius: 10px;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+}
+
+.information-upper-wrapper.time{
+    background-color: #d9e4fd;
+    color: #134cfb;
+}
+.information-upper-wrapper.attended{
+    background-color: #e3f6f3;
+    color: #24bb9e;
+}
+.information-upper-wrapper.meetings{
+    background-color: #f7f3ff;
+    color: #8c7cd4;
+}
+.information-upper-wrapper.rejected{
+    background-color: #fff1e8;
+    color: #fb5e2f;
+}
+
+.information-upper-wrapper-logo{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+
+.information-upper-wrapper-data{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-left: -6px;
+    margin-right: 5px;
+}
+
+.information-upper-wrapper-data>h1{
+    font-size: 14px;
+}
+
+.information-upper-wrapper-data>p{
+    font-size: 10px;
+    margin-top: -10px;
+}
