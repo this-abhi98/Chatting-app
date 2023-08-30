@@ -20,8 +20,19 @@
     border: 1px solid #ebf0f7;
 }
 
+.addedAttachments {
+    color: green;
+    margin: 0 10px 0 10px;
+    background: white;
+    width: -webkit-fill-available;
+    text-align: initial;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
 .chatbox>div {
     border-radius: 5px;
+    align-items: center;
 }
 
 .messageBox {
@@ -37,7 +48,6 @@
     width: 90%;
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
@@ -89,6 +99,14 @@
     width: 100px;
 }
 
+.emoji {
+    cursor: pointer;
+}
+
 .emoji svg {
-    fill: lightyellow;
+    fill: hsl(60, 80%, 47%);
+}
+
+.EmojiPickerReact {
+    padding: 16px;
 }

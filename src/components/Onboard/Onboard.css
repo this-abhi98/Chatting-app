@@ -1,4 +1,4 @@
-.onboard-wrapper{
+.onboard-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,24 +7,38 @@
     height: 100%;
 }
 
-.onboard-wrapper>div{
+.onboard-wrapper>div {
     margin-top: 14px;
 }
 
-.onboard-wrapper>button{
+.onboard-wrapper>button {
     margin-top: 14px;
 }
 
-.onboard-heading{
+
+
+.copied-toast {
+    position: absolute;
+    background-color: #1b233c;
+    color: white;
+    height: 28px;
+    width: 161px;
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+    border-radius: 20px;
+}
+
+.onboard-heading {
     font-size: 18px;
     font-weight: 600;
 }
 
-.onboard-text{
+.onboard-text {
     font-size: 14px;
 }
 
-.copy-link-button{
+.copy-link-button {
     display: flex;
     background-color: #134cfb;
     color: white;
@@ -35,9 +49,10 @@
     width: 130px;
     font-size: 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-.copy-link-button-icon{
+.copy-link-button-icon {
     font-size: 1.1rem !important;
     margin-left: 5px;
 }

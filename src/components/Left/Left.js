@@ -8,13 +8,13 @@ import { Conversation } from '../Conversation/Conversation';
 
 const Left = () => {
 	const [activeConversation, setActiveConversation] = useState(true);
-	const [archievedConversation, setArchievedConversation] = useState(false);
+	const [archievedConversation, setArchievedConversation] = useState(true);
 
 	const activeConversationToggler = () => {
 		return setActiveConversation(!activeConversation);
 	};
 	const archievedConversationToggler = () => {
-		return setActiveConversation(!archievedConversation);
+		return setArchievedConversation(!archievedConversation);
 	};
 
 	return (
@@ -36,17 +36,18 @@ const Left = () => {
 						<ArrowDropDownOutlinedIcon className="active-conversation-toggle-icon" />
 					)}
 				</div>
-				{activeConversation && <Conversation activeConversation={activeConversation} />}
+				{activeConversation && <Conversation isArchievedConvo={false} activeConversation={activeConversation} />}
 			</div>
-			<div className="active-conversation">
-				<div className="active-conversation-toggler" onClick={archievedConversationToggler}>
+			<div className="archieve-conversation">
+				<div className="archieve-conversation-toggler" onClick={archievedConversationToggler}>
 					<p>Archieved Conversation</p>
 					{archievedConversation ? (
-						<ArrowDropUpOutlinedIcon className="active-conversation-toggle-icon" />
+						<ArrowDropUpOutlinedIcon className="archieve-conversation-toggle-icon" />
 					) : (
-						<ArrowDropDownOutlinedIcon className="active-conversation-toggle-icon" />
+						<ArrowDropDownOutlinedIcon className="archieve-conversation-toggle-icon" />
 					)}
 				</div>
+				{archievedConversation && <Conversation isArchievedConvo={true} activeConversation={archievedConversation} />}
 			</div>
 
 			{/* <div className="archived-conversation">

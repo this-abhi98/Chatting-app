@@ -5,6 +5,8 @@
     flex: 3;
     height: inherit;
     flex-direction: column;
+    overflow: auto;
+    max-width: 360px;
 }
 
 .Right>div {

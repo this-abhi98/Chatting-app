@@ -1,45 +1,51 @@
-.active-conversation-list{
+.active-conversation-list {
     display: flex;
     flex: 3;
-    width: 90%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
     opacity: 1;
 }
 
-.active-conversation-list.inactive{
+.active-conversation-list.inactive {
     /* visibility:hidden; */
     opacity: 0;
     /* transition: visibility 0s, opacity 0.5s linear; */
 }
 
-.active-conversation-wrapper{
+.conversation-wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
     /* justify-content: center; */
     /* background-color: aqua; */
-    width: 90%;
-    border-radius: 10px ;
+    width: 100%;
+    border-radius: 10px;
     cursor: pointer;
     margin-top: 5px;
 }
 
-.active-conversation-wrapper:hover{
-    background-color: #f3f6fb;
+.active-conversation-wrapper {
+    background-color: #7e9dd0;
     border: 1px solid #f3f6fb;
 }
 
-.conversation-user-dp{
+.active-conversation-wrapper:hover {
+    background-color: #7e9dd0;
+    border: 1px solid #f3f6fb;
+}
+
+.conversation-user-dp {
     height: 35px;
     width: 35px;
     border-radius: 50%;
     object-fit: cover;
     margin-left: 0px;
+    padding: 10px;
 }
 
-.conversation-avatar-name{
+.conversation-avatar-name {
     font-size: 14px;
     margin-left: 10px;
     font-weight: 500;

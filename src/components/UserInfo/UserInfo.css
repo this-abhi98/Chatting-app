@@ -1,10 +1,12 @@
-.userInfo{
+.userInfo {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px 10px;
+
 }
 
-.userInfo>.userInfoMail,.userInfoAccount{
+.userInfo>.userInfoMail,
+.userInfoAccount {
     display: flex;
     flex-direction: row;
     /* background-color: aqua; */
@@ -14,31 +16,33 @@
     width: 50%;
     margin-left: 40px;
     margin-top: -5px;
+
 }
 
-.userInfoMail>p,.userInfoAccount>p{
+.userInfoMail>p,
+.userInfoAccount>p {
     margin-left: 10px;
 }
 
-.icon{
+.icon {
     font-size: 1.2rem !important;
 }
 
 
-.userInfoImg{
+.userInfoImg {
     width: 65px;
     height: 65px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.userInfoButton{
+.userInfoButton {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.archive{
+.archive {
     display: flex;
     background-color: white;
     text-decoration: none;
@@ -54,7 +58,7 @@
     width: 90px;
 }
 
-.archive-icon{
+.archive-icon {
     margin-left: 5px;
     font-size: 1.1rem !important;
 }
